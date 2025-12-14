@@ -70,4 +70,14 @@ tmp/
 
 # CSV results
 *.csv
-
+# === Allow lowlight data and results to be tracked ===
+!lowlight/data/**
+!lowlight/dataset/**
+!lowlight/**/*.png
+!lowlight/**/*.jpg
+!lowlight/**/*.jpeg
+!lowlight/**/*.bmp
+!lowlight/checkpoints/**
+!lowlight/**/*.pth
+!lowlight/**/*.pt
+!lowlight/**/*.ckpt
